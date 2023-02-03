@@ -5,8 +5,7 @@ dengan menerapkan konsep OOP :
 - Abstract
 - Inheritance
 - Polymorphism
-- Generic Variable
-- Generic Method
+- Generic
 
 PrOgrAmmeR : [Dimas Syauqi] mngoding di [onlinegdb][df1]
 
