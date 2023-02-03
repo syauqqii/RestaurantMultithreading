@@ -7,10 +7,13 @@ dengan menerapkan konsep OOP :
 - Polymorphism
 - Generic
 
-PrOgrAmmeR : [Dimas Syauqi] mngoding di [onlinegdb][df1]
-
 ### 1. Tampilan Menu Utama
 <img src="img/Screenshot%20(168).png">
+
+### 2. Tampilan Menu Pilih Paket
+<img src="img/Screenshot%20(169).png">
+
+PrOgrAmmeR : [Dimas Syauqi] mngoding di [onlinegdb][df1]
 
    [Dimas Syauqi]: <http://instagram.com/syaauqqii>
    [df1]: <https://www.onlinegdb.com/>
