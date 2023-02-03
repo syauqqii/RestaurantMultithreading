@@ -74,8 +74,6 @@ public class Main extends paket{
         formatRp.setGroupingSeparator('.');
         idr.setDecimalFormatSymbols(formatRp);
         
-        paket menu = new paket();
-        
         int optMenu  = 0;
         int optPaket = 0;
         
@@ -117,26 +115,26 @@ public class Main extends paket{
                     switch(optMenu){
                         case 1:
                             startTime = System.currentTimeMillis();
-                            paket.paketA();
+                            paketA();
                             endTime = System.currentTimeMillis();
                             result = endTime - startTime;
-                            System.out.print("\n > Total Harga : "+idr.format(paket.hargaTotalPaketA())+" | Waktu Pembuatan Pesanan "+(double)(result/1000)+" detik ");
+                            System.out.print("\n > Total Harga : "+idr.format(hargaTotalPaketA())+" | Waktu Pembuatan Pesanan "+(double)(result/1000)+" detik ");
                             pauseProgram(2);
                             break;
                         case 2:
                             startTime = System.currentTimeMillis();
-                            paket.paketB();
+                            paketB();
                             endTime = System.currentTimeMillis();
                             result = endTime - startTime;
-                            System.out.print("\n > Total Harga : "+idr.format(paket.hargaTotalPaketB())+" | Waktu Pembuatan Pesanan "+(double)(result/1000)+" detik ");
+                            System.out.print("\n > Total Harga : "+idr.format(hargaTotalPaketB())+" | Waktu Pembuatan Pesanan "+(double)(result/1000)+" detik ");
                             pauseProgram(2);
                             break;
                         case 3:
                             startTime= System.currentTimeMillis();
-                            paket.paketC();
+                            paketC();
                             endTime = System.currentTimeMillis();
                             result = endTime - startTime;
-                            System.out.print("\n > Total Harga : "+idr.format(paket.hargaTotalPaketC())+" | Waktu Pembuatan Pesanan "+(double)(result/1000)+" detik ");
+                            System.out.print("\n > Total Harga : "+idr.format(hargaTotalPaketC())+" | Waktu Pembuatan Pesanan "+(double)(result/1000)+" detik ");
                             pauseProgram(2);
                             break;
                         case 4:
